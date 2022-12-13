@@ -1,0 +1,15 @@
+.page-header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color-header-border);
+
+    background-color: var(--primary-white-color);
+}
+
+.page-header__container {
+    display: flex;
+    align-items: center;
+
+    padding-top: 0;
+    padding-bottom: 0;
+}
