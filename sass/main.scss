@@ -1,2 +1,10 @@
-@import '/sass/base/reset';
+@import './base/reset';
+@import './base/common';
+
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './components/container';
+@import './components/btn';
+
 

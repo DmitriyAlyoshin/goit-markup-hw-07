@@ -1,0 +1,22 @@
+body {
+    color: var(--primary-color);
+    
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title {
+    margin-top: 0;
+
+    color: var(--title-and-btn-color);
+}

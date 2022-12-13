@@ -1,65 +1,5 @@
-:root {
-  --primary-color: #757575;
-  --title-and-btn-color: #212121;
-  --secondary-bgd-color: #f5f4fa;
-  --footer-bgd-color: #2f303a;
-  --accent-color: #2196f3;
-  --hero-btn-accent-color: #188ce8;
-  --primary-white-color: #ffffff;
-  --footer-contacts-color: #ffffff60;
-  --primary-black-color: #000000;
-  --button-bgd-color: #f5f4fa;
-  --networks-icon-color: #afb1b8;
-  --border-color: #eeeeee;
-  --footer-networks-bgd-color: rgba(255, 255, 255, 0.1);
-  --accent-portfolio-bg-color: rgba(33, 150, 243, 0.9);
-  --placeholder-color: rgba(117, 117, 117, 0.5);
-}
 
-body {
-  color: var(--primary-color);
-  background-color: var(--primary-white-color);
 
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0.03em;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.title {
-  margin-top: 0;
-
-  color: var(--title-and-btn-color);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin: 0 auto;
-  /* outline: 2px solid tomato ; */
-}
 
 .container.no-padding {
   padding-top: 0;
@@ -76,112 +16,11 @@ body {
 
 /* -----Buttons!----- */
 
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  min-width: 73px;
-  border-width: 0;
 
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-}
-
-.button.hero-button {
-  padding: 10px 32px;
-
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.button.primary {
-  padding: 6px 22px;
-
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.button.secondary {
-  padding: 6px 22px;
-
-  color: var(--title-and-btn-color);
-  background-color: var(--button-bgd-color);
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-submit {
-  position: relative;
-
-  min-width: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 28px;
-  text-align: left;
-
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.icon-btn-subscribe {
-  position: absolute;
-  right: 13px;
-  bottom: 50%;
-  transform: translate(-50%, 50%);
-
-  fill: currentColor;
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  background-color: var(--hero-btn-accent-color);
-}
-
-.button.secondary:hover,
-.button.secondary:focus {
-  background-color: var(--accent-color);
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-submit:hover,
-.button-submit:focus {
-  background-color: var(--hero-btn-accent-color);
-}
 
 /* --------------------Site Header!-------------------- */
 
 /* -----Main nav----- */
-
-.main-nav {
-  display: flex;
-  align-items: center;
-}
 
 /* -----Logo----- */
 
@@ -191,6 +30,17 @@ body {
   border-bottom-color: #ececec;
 
   background-color: var(--primary-white-color);
+}
+
+.page-header__container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  
 }
 
 .logo {
@@ -1059,7 +909,7 @@ body {
   background-origin: border-box;
 }
 
-.modal .form .button-submit {
+.modal__button {
   padding-left: 0;
   text-align: center;
 
