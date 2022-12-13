@@ -24,14 +24,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-img {
-  display: block;
-}
-
-button {
-  cursor: pointer;
-}
-
 .list {
   padding: 0;
   margin: 0;
