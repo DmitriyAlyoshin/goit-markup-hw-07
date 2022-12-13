@@ -39,14 +39,14 @@
                 <li class="site-nav__item"><a href="" class="site-nav__link">Контакти</a></li>
             </ul>
 
-            <ul class="contacts-header list">
-                <li class="item"><a href="mailto:info@devstudio.com" class="link">
-                        <svg class="item-icon" width="16" height="12">
+            <ul class="contacts">
+                <li class="contacts__item"><a href="mailto:info@devstudio.com" class="contacts__link">
+                        <svg class="contacts__item--icon" width="16" height="12">
                             <use href="./images/icons.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a></li>
-                <li class="item"><a href="tel:+380961111111" class="link">
-                        <svg class="item-icon" width="10" height="16">
+                <li class="contacts__item"><a href="tel:+380961111111" class="contacts__link">
+                        <svg class="contacts__item--icon" width="10" height="16">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11</a></li>
@@ -61,8 +61,8 @@
 
 
         <section class="hero">
-            <div class="container no-padding">
-                <h1 class="hero-title title">Ефективні рішення для <br>вашого бізнесу</h1>
+            <div class="container hero__container">
+                <h1 class="hero__title">Ефективні рішення для <br>вашого бізнесу</h1>
                 <button type="button" class="button-hero" data-modal-open>Замовити послугу</button>
             </div>
         </section>
@@ -486,7 +486,7 @@
                 <div class="modal-checkbox-group">
                     <input type="checkbox" id="rules" class="modal-checkbox visually-hidden" name="rules" value=" ">
                     <label for="rules" class="modal-checkbox-label"> Погоджуюся з розсилкою та приймаю
-                        <a href="https://zakon.rada.gov.ua/laws/show/998_158#Text" target="_blank" 
+                        <a href="https://zakon.rada.gov.ua/laws/show/998_158#Text" target="_blank" rel="noopener noreferrer"
                         class="modal-checkbox-rules">Умови договору</a></label>
                 </div>
 
