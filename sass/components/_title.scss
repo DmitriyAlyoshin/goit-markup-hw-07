@@ -41,3 +41,19 @@
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
+.portfolio-projects__title {
+    color: var(--title-and-btn-color);
+
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-projects__title--indent {
+    display: block;
+    padding-left: 24px;
+    padding-right: 0;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
