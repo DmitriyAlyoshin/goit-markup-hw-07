@@ -61,34 +61,3 @@
         color: var(--primary-white-color);
     }
 }
-
-// $teamicons: "instagram-min", "twitter-min", "facebook-min", "linkedin-min";
-
-// @mixin generateIcons($teamiconList) {
-//     @each $teamiconName in $teamiconList {
-//         .teamicon-#{$teamiconName} {            
-//             display: flex;
-//             justify-content: center;
-//             align-items: center;
-            
-//             background-color: var(--primary-white-color);
-//             color: var(--networks-icon-color);
-//             background-size: contain;
-//             width: 44px;
-//             height: 44px;
-//             background-image: url("../../images/sociallinks/#{$teamiconName}.svg");
-
-//             fill: currentColor;
-            
-//             // border-radius: 50%;
-
-//             &:hover,
-//             &:focus {
-//             background-color: var(--accent-color);
-//             color: var(--primary-white-color);
-//             }
-//         }
-//     }
-// }
-
-// @include generateIcons($teamicons);
