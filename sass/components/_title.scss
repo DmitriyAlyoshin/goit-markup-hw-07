@@ -14,7 +14,10 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
 
+.section__title--indent {
+    margin-bottom: 50px;
 }
 
 .subtitle{
@@ -23,4 +26,18 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+}
+
+.employee-name-title {
+    color: var(--title-and-btn-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.employee-name-title--indent {
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
