@@ -105,6 +105,44 @@
     fill: currentColor;
 }
 
+.button__modal {
+    @include btn-padding(10px, 0px, 10px, 0px);
+    text-align: center;
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.button-modal-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.button-modal-close__icon {
+    fill: currentColor;
+    color: var(--primary-black-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+
 
 
 
