@@ -781,6 +781,48 @@ body {
           transform: translate(-75px, -50%);
 }
 
+.filtr {
+  background-color: var(--primary-white-color);
+}
+
+.filtr__container {
+  padding-bottom: 0;
+}
+
+.filtr__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filtr__item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filtr {
+  background-color: var(--primary-white-color);
+}
+
+.filtr__container {
+  padding-bottom: 0;
+}
+
+.filtr__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filtr__item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
