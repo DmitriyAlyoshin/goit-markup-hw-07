@@ -21,10 +21,7 @@
 
   color: var(--title-and-btn-color);
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font($fs, 500, 1.14, 0.02);
 
   &:hover {
     color: getColor("accent");

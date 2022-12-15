@@ -1,3 +1,10 @@
+@mixin btn-padding($pt, $pr, $pb, $pl) {
+  padding-top: $pt;
+  padding-right: $pr;
+  padding-bottom: $pb;
+  padding-left: $pl;
+}
+
 %button {
   display: inline-block;
   border-radius: 4px;
@@ -9,18 +16,8 @@
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+  @include font(16, 500, 1.62, $ls);
   font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-}
-
-@mixin btn-padding($pt, $pr, $pb, $pl) {
-  padding-top: $pt;
-  padding-right: $pr;
-  padding-bottom: $pb;
-  padding-left: $pl;
 }
 
 .button-hero {
@@ -34,9 +31,7 @@
     background-color: getColor("hero-btn-accent");
   }
 
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  @include font($fs, 700, 1.88, 0.06);
 }
 
 .button-primary {
@@ -65,10 +60,6 @@
 
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
-
-    // transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    // color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    // background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -88,9 +79,7 @@
     background-color: getColor("hero-btn-accent");
   }
 
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  @include font($fs, 700, 1.88, 0.06);
 }
 
 .button-submit__icon {

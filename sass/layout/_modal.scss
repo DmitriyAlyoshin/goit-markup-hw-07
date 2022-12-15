@@ -43,9 +43,8 @@
 .modal__text {
   color: getColor("title-and-btn");
 
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
+  @include font(20, null, 1.15, $ls);
+
 }
 
 .modal__text--indent {
@@ -71,9 +70,7 @@
 
   color: getColor("primary");
 
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include font(12, null, 1.17, 0.01);
 }
 
 .form__input {
@@ -86,9 +83,9 @@
   padding-left: 42px;
 
   color: getColor("title-and-btn");
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+
+  @include font(12, null, 1.17, 0.01);
+ 
   border: 1px solid getColor("modal-border");
   border-radius: 4px;
   outline: none;
@@ -130,9 +127,9 @@
   resize: none;
 
   color: getColor("primary");
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+
+  @include font(12, null, 1.17, 0.01);  
+
   border: 1px solid getColor("modal-border");
   border-radius: 4px;
 
@@ -146,9 +143,8 @@
 
   &::placeholder {
     color: getColor("placeholder");
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
+
+    @include font(12, null, 1.17, 0.01);  
   }
 }
 
@@ -157,10 +153,9 @@
 }
 
 .modal-checkbox__label {
-  font-size: 14px;
-  line-height: 1.71;
-
   color: getColor("primary");
+
+  @include font($fs, null, $lh, $ls);
 
   display: flex;
   align-items: center;

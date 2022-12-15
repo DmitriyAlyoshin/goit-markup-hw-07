@@ -14,9 +14,7 @@
 }
 
 .page-footer__contacts {
-  font-size: 14px;
-  line-height: 1.71;
-  font-style: normal;
+  @include font($fs, $fw, $lh, $ls);
 }
 
 .footer-address {

@@ -36,6 +36,5 @@
   margin-bottom: 0;
   width: 270px;
 
-  font-size: 14px;
-  line-height: 1.71;
+  @include font($fs, null, $lh, $ls);
 }
