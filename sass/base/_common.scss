@@ -1,5 +1,5 @@
 body {
-    color: var(--primary-color);
+    color: getColor('primary');
     
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;

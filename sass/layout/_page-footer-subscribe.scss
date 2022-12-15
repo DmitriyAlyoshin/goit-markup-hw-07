@@ -4,7 +4,7 @@
 }
 
 .subscribe__subtitle {
-    color: var(--primary-white-color);
+    color: getColor('primary-white');
 }
 
 .subscribe-form__field {
@@ -29,20 +29,20 @@
     margin-right: 12px;
     padding-left: 16px;
 
-    color: var(--color-footer-form);
+    color: getColor('footer-form');
     outline: none;
     background-color: transparent;
-    border: 1px solid var(--color-footer-border-form);
+    border: 1px solid getColor('footer-border-form');
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
 
     &:focus {
-        border-color: var(--accent-color);
+        border-color: getColor('accent');
     }
 
     &:focus+.subscribe-form__label,
     &:not(:placeholder-shown)+.subscribe-form__label {
-        color: var(--primary-white-color);
+        color: getColor('primary-white');
         transform: translate(-75px, -50%);
     }
 }

@@ -1,1 +1,1 @@
-p,h1,h2,h3,h4,h5,h6{margin:0}img{display:block}button{cursor:pointer}a,li{text-decoration:none}ul,ol{padding:0;margin:0;list-style:none}body{color:var(--primary-color);font-family:"Roboto",sans-serif;letter-spacing:.03em}/*# sourceMappingURL=base.min.css.map */
+p,h1,h2,h3,h4,h5,h6{margin:0}img{display:block}button{cursor:pointer}a,li{text-decoration:none}ul,ol{padding:0;margin:0;list-style:none}body{color:getColor("primary");font-family:"Roboto",sans-serif;letter-spacing:.03em}/*# sourceMappingURL=base.min.css.map */

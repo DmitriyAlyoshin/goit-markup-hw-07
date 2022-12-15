@@ -1,16 +1,16 @@
 .filtr {
-    background-color: var(--primary-white-color);
+  background-color: getColor("primary-white");
 }
 
 .filtr__container {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .filtr__list {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .filtr__item:not(:last-child) {
-    margin-right: 8px;
+  margin-right: 8px;
 }

@@ -1,10 +1,10 @@
 .container {
   width: 1200px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 94px;
   padding-bottom: 94px;
-  margin: 0 auto;
 }
 
 .button-submit, .button-secondary, .button-primary, .button-hero {
@@ -12,8 +12,8 @@
   border-radius: 4px;
   min-width: 73px;
   border-width: 0;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: getColor("primary-white");
+  background-color: getColor("accent");
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-family: inherit;
@@ -35,7 +35,7 @@
   letter-spacing: 0.06em;
 }
 .button-hero:hover, .button-hero:focus {
-  background-color: var(--hero-btn-accent-color);
+  background-color: getColor("hero-btn-accent");
 }
 
 .button-primary {
@@ -43,8 +43,6 @@
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -54,16 +52,16 @@
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
-  color: var(--title-and-btn-color);
-  background-color: var(--button-bgd-color);
+  color: getColor("title-and-btn");
+  background-color: getColor("button-bgd");
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-secondary:hover, .button-secondary:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: getColor("primary-white");
+  background-color: getColor("accent");
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -83,7 +81,7 @@
   letter-spacing: 0.06em;
 }
 .button-submit:hover, .button-submit:focus {
-  background-color: var(--hero-btn-accent-color);
+  background-color: getColor("hero-btn-accent");
 }
 
 .button-submit__icon {
@@ -121,23 +119,23 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #ffffff;
+  background: getColor("primary-white");
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
 
 .button-modal-close__icon {
   fill: currentColor;
-  color: var(--primary-black-color);
+  color: getColor("primary-black");
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-modal-close__icon:hover, .button-modal-close__icon:focus {
-  color: var(--accent-color);
+  color: getColor("accent");
 }
 
 .hero__title {
-  color: var(--primary-white-color);
+  color: getColor("primary-white");
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -146,7 +144,7 @@
 }
 
 .section__title {
-  color: var(--title-and-btn-color);
+  color: getColor("title-and-btn");
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -157,14 +155,14 @@
 }
 
 .subtitle {
-  color: var(--title-and-btn-color);
+  color: getColor("title-and-btn");
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .employee-name-title {
-  color: var(--title-and-btn-color);
+  color: getColor("title-and-btn");
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -177,7 +175,7 @@
 }
 
 .portfolio-projects__title {
-  color: var(--title-and-btn-color);
+  color: getColor("title-and-btn");
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;

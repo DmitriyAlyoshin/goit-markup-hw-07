@@ -1,15 +1,13 @@
 .page-header {
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: var(--color-header-border);
-
-    background-color: var(--primary-white-color);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: getColor("header-border");
 }
 
 .page-header__container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    padding-top: 0;
-    padding-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
