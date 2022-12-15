@@ -1,31 +1,7 @@
-@import './base/reset';
-@import './base/common';
+@import './base/base.scss';
 
-@import './utils/variables';
-@import './utils/visually-hidden';
+@import './utils/main.scss';
 
-@import './components/container';
-@import './components/btn';
-@import './components/title';
+@import './components/main.scss';
 
-@import './layout/page-header';
-@import './layout/logo';
-@import './layout/site-nav';
-@import './layout/contacts';
-@import './layout/hero';
-@import './layout/features';
-@import './layout/projects';
-@import './layout/team';
-@import './layout/clients';
-
-
-@import './layout/portfolio-filtr';
-@import './layout/portfolio-projects';
-
-@import './layout/page-footer-contacts';
-@import './layout/page-footer-social-networks';
-@import './layout/page-footer-subscribe';
-
-@import './layout/modal';
-
-@import './layout/disable-scroll';
+@import './layout/main.scss';
